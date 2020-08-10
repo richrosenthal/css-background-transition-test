@@ -4,6 +4,45 @@ html {
 
 body {
     margin: 0;
-    min-height: 100vh;
-    background: dodgerblue;
+    padding: 0;
+    animation: bgcolor infinite 20s;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 5em;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+@keyframes bgcolor {
+    0%
+    {
+        background:#2980b9 ;
+    }
+    20%
+    {
+        background:#f1c40f ;
+    }
+    40%
+    {
+        background: #2c3e50;
+    }
+    60%
+    {
+        background: #9b59b6 ;
+    }
+    80%
+    {
+        background: #e74c3c ;
+    }
+    100%
+    {
+        background: #2ecc71 ;
+    }
 }
